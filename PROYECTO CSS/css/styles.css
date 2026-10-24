@@ -1,3 +1,54 @@
+/* Selectores de etiquetas */
+
+body {
+    background-color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .title {
     color: green;
+}
+h1 {
+    color: darkorange;
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    color: hsl(139, 18%, 39%);
+    font-size: 20px;
+   
+}
+.Boton1 {
+    background-color: green;
+    color: white;
+ padding: 10px;
+     margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+border-radius: 20px;
+cursor: pointer;
+}
+.Boton2 {
+    background-color: #da1919;
+    color: white;
+ padding: 10px;
+     margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+border-radius: 20px;
+}
+.Boton3 {
+    background-color: green;
+    color: white;
+ padding: 10px;
+margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+    transform: scale(1.1);
+    
+}
+img {
+    width: 200px;
+    border-radius: 20%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px gray;
 }

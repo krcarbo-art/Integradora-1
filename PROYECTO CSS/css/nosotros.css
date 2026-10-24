@@ -1,0 +1,12 @@
+.title {
+    color: green;
+}
+h1 {
+    color: darkorange;
+    font-size: 40px;
+    text-align: center;
+}
+p {
+    color: hsl(139, 18%, 39%);
+    font-size: 20px;
+}
