@@ -1,7 +1,7 @@
 /* Selectores de etiquetas */
 
 body {
-    background-color: darkorange;
+    background-color: #8c00ff;
     font-family: Arial, Helvetica, sans-serif;
 }
 .title {
@@ -57,6 +57,9 @@ img {
 nav {
     background-color: #222;
     padding: 15px;
+     display: flex;
+    justify-content: space-between;
+     align-items: center;
 }
 
 nav ul {
@@ -77,9 +80,29 @@ nav a {
     transition: 4s;
 }
 nav a:hover {
-    background-color: orange;
+    background-color: #c300ff;
     color: black;
-transform: translateY(-20xp)
-    
-  .logo
+transform: translateY(-20xp);
+    /* Logo */
+/* Logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
 }
+    @media (max-width: 700px) {
+
+    nav {
+        background-color: #285572;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu-hamburguesa {
+        display: block;
+    }
+}
+
+  }
