@@ -1,6 +1,7 @@
-let numButtonClicks = 0;
-function buttonClicked() {
-    numButtonClicks = numButtonClicks + 1;
-    document.getElementById("mainDiv").textContent =
-        "Button Clicked times: " + numButtonClicks;
+// Función para abrir y cerrar el menú móvil
+// JavaScript distingue mayúsculas y minúsculas
+
+function abrirMenu() {
+    const menu = document.querySelector("nav ul");
+    menu.classList.toggle("activo");
 }
